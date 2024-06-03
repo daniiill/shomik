@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Arimo", sans-serif;
+}
+
+a {
+  text-decoration: 0;
+  color: black;
+  transition: all .2s linear;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+a:hover {
+  font-size: 36px;
+  color: #4d5032;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f7ff99;
+  border-radius: 60px;
+}
+
+.foot {
+  text-align: center;
+  background-color: #f7ff99;
+  border-radius: 60px;
+  position: fixed;
+  width: 80%;
+  bottom: 0;
+  text-align: center;
+}
+
+.foot p {
+  padding: 5px 0;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.stranica {
+  margin: 50px 50px 0 50px;
+  padding-bottom: 60px;
+}
+
+.pers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  transition: all .1s linear;
+  border: 5px #f7ff99 solid;
+  border-radius: 50px;
+}
+
+.card img:hover {
+  width: 250px;
+}
+
+.card span {
+  font-size: 24px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+}
